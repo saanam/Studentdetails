@@ -1,0 +1,131 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    tools:context=".MainActivity"
+    style="@style/style">
+
+    <EditText
+        android:id="@+id/etname"
+        style="@style/style"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:hint="Enter name">
+
+    </EditText>
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Select gender">
+
+    </TextView>
+<RadioGroup
+    android:id="@+id/rdgroup"
+    style="@style/style"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:orientation="horizontal">
+
+        <RadioButton
+            android:id="@+id/rbimg1"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Male"
+            >
+
+        </RadioButton>
+
+        <RadioButton
+            android:id="@+id/rbimg2"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Female"
+            >
+
+        </RadioButton>
+
+        <RadioButton
+            android:id="@+id/rbimg3"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Others"
+            >
+
+        </RadioButton>
+</RadioGroup>
+
+    <TextView
+        android:id="@+id/tvcountry"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Select country">
+
+    </TextView>
+    <Spinner
+        android:id="@+id/spincountry"
+        style="@style/style"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+
+        >
+
+    </Spinner>
+    <AutoCompleteTextView
+        android:id="@+id/actv1"
+        style="@style/style"
+        android:layout_width ="match_parent"
+        android:layout_height="wrap_content"
+        android:hint="Enter  batch">
+
+    </AutoCompleteTextView>
+
+    <Button
+        android:id="@+id/btnsave"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="save">
+
+    </Button>
+
+    <TextView
+        android:id="@+id/tvoutputname"
+        style="@style/style"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:hint="Output">
+
+    </TextView>
+
+    <TextView
+        android:id="@+id/tvoutputgender"
+        style="@style/style"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:hint="Output">
+
+    </TextView>
+
+    <TextView
+        android:id="@+id/tvoutputcountry"
+        style="@style/style"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:hint="Output">
+
+    </TextView>
+
+    <TextView
+        android:id="@+id/tvoutputbatch"
+        style="@style/style"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:hint="Output">
+
+    </TextView>
+
+
+</LinearLayout>
